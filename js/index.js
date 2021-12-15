@@ -147,7 +147,7 @@ function scrollNav(){
 function cardLocation() {
     Components.cards.forEach(card => {
         card.addEventListener('click', e => {
-            window.location.href = 'UnderCt.html'
+            window.location.href = 'courses.html'
         })
     })
     
